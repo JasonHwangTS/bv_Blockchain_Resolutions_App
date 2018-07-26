@@ -1,0 +1,20 @@
+.app {
+  height: 100vh;
+  width: 100vw;
+}
+
+/* Scrollbar Styles */
+*::-webkit-scrollbar-track
+{
+  margin: 0;
+}
+*::-webkit-scrollbar
+{
+  height: 8px;
+	width: 8px;
+}
+*::-webkit-scrollbar-thumb
+{
+	border-radius: 4px;
+	background-color: var(--darkhigh);
+}

@@ -1,0 +1,45 @@
+.donutchart-track{
+  fill: transparent;
+  stroke: #DAE2E5;
+  stroke-width: 10;
+}
+.donutchart-indicator1 {
+  fill: transparent;
+  stroke: #2ed573;
+  stroke-width: 10;
+  stroke-dasharray: 0 10;
+  transition: stroke-dasharray .3s ease;
+}
+.donutchart-indicator2 {
+  fill: transparent;
+  stroke: #ff4757;
+  stroke-width: 10;
+  stroke-dasharray: 0 10;
+  transition: stroke-dasharray .3s ease;
+}
+.donutchart-indicator3 {
+  fill: transparent;
+  stroke: black;
+  stroke-width: 10;
+  stroke-dasharray: 0 10;
+  transition: stroke-dasharray .3s ease;
+}
+
+.donutchart {
+  margin: 0.5rem 1rem 0.5rem 1rem;
+  border-radius: 50%;
+  display: block;
+}
+
+.donutchart-text{
+  fill: gray;
+}
+.donutchart-text-val{
+  font-size:22px;
+}
+.donutchart-text-percent{
+  font-size:14px;
+}
+.donutchart-text-label{
+  font-size:9px;
+}

@@ -1,0 +1,28 @@
+.home {
+  display: flex;
+  flex-direction: row;
+  height: calc(100% - 50px);
+}
+.home-sidelist {
+  height: 100%;
+  width: 25%;
+  background-color: white;
+  border-right: 1px solid var(--border);
+  transition: 200ms all;
+}
+.home-main {
+  flex: 1;
+  max-height: calc(100vh - 50px);
+  overflow: auto;
+}
+
+/* Sidebar Toggle On/Off without Javascript */
+#toggle1 ~ .home-sidelist {
+  margin-left: 0;
+}
+#toggle1:checked ~ .home-sidelist {
+  margin-left: -25%;
+}
+#toggle1 {
+  display: none;
+}

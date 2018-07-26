@@ -1,0 +1,44 @@
+.main {
+  margin: 15px;
+}
+.main-topbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100px;
+}
+.main-toptext {
+  margin: 0 1rem 0 1rem;
+  font-size: 1.25rem;
+}
+.main-toptextnumber {
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+.main-topbar a {
+  color: var(--darkhigh);
+}
+.main-topbar a:hover {
+  color: var(--dark);
+}
+.main-add {
+  margin-right: 1rem;
+}
+::-webkit-file-upload-button { cursor:pointer; }
+
+.main-shrink {
+  display: inline-block;
+}
+
+.main-buttonmargin {
+  margin: 1rem 0.25rem;
+}
+.main-green {
+  background-color: #2ed573;
+  color: white !important;
+  border: 1px solid #2ed573;
+}
+.main-green:hover {
+  background-color: #29b864;
+  border: 1px solid #29b864;
+}

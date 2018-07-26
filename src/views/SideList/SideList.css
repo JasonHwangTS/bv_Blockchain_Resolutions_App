@@ -1,0 +1,70 @@
+.sidelist {
+  overflow: auto;
+  max-height: 100%;
+}
+
+.sidelist-topbar {
+  height: 2.5rem;
+  width: 100%;
+  background-color: white;
+  border-bottom: 3px solid var(--border);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 1rem;
+}
+.sidelist-button {
+  margin-left: 0.5rem;
+}
+.sidelist-topbar a {
+  color: var(--darkhigh);
+}
+.sidelist-topbar a:hover {
+  color: var(--dark);
+}
+.sidelist-item {
+  transition: 200ms all;
+  border-bottom: 1px solid var(--border);
+}
+.sidelist-item:hover {
+  transition: 200ms all;
+  background-color: var(--bluehigh);
+}
+.sidelist-item-wrapper {
+  padding-top: 0.5rem;
+  margin: 0rem 1.25rem 0.7rem 1.25rem;
+}
+.sidelist-item-nd {
+  display: flex;
+  flex-direction: row;
+}
+.sidelist-add {
+  margin-left: 0.5rem;
+  font-size: 1.4rem;
+}
+
+.sidelist input[type=text] {
+  width: 100%;
+  margin-left: 0.5rem;
+  border: none;
+  font-size: 0.9rem;
+}
+.sidelist input[type=text]:focus {
+  outline: none;
+}
+
+.sidelist-search {
+  transition: 200ms all;
+}
+#toggle2 ~ .sidelist-search {
+  visibility: hidden;
+  opacity: 0;
+  
+}
+#toggle2:checked ~ .sidelist-search {
+  visibility: visible;
+  opacity: 1;
+}
+#toggle2 {
+  display: none;
+}

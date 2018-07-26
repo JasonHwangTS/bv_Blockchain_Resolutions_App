@@ -1,0 +1,109 @@
+/* Set Colots theme for website */
+:root {
+  --darkest: #111111;
+  --dark: #353535;
+  --darkhigh: #888888;
+  --lighthigh: #f2f3f5;
+  --background: #f9fafb;
+  --border: #e5e5e5;
+  --blue: #0f7ae5;
+  --bluehigh: #f1faff;
+}
+/* Default Settings */
+* {
+  box-sizing: border-box;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--background);
+}
+a {
+  color: inherit;
+}
+a:hover {
+  text-decoration: none !important;
+  color: var(--dark);
+}
+
+/* box default styles */
+.box-container {
+  background: white;
+  border: 1px solid var(--border);
+  box-sizing: border-box;
+  color: var(--dark);
+}
+.box-heading-mini {
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: var(--darkhigh);
+  text-transform: uppercase;
+}
+.box-heading-big {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--darkest);
+}
+.box-heading-time {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: var(--dark);
+  font-style: italic;
+}
+.box-heading-1 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-style: normal;
+}
+.box-heading-2 {
+  font-size: 1rem;
+  font-weight: 500;
+  font-style: normal;
+}
+.box-text-1 {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--dark);
+  font-style: normal;
+}
+.box-text-2 {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: var(--dark);
+  font-style: normal;
+}
+
+.box-button-pill {
+  text-decoration: none;
+  box-sizing: border-box;
+  height: 20px;
+  font-size: 0.7rem;
+  font-weight: 500;
+  border: 1px solid var(--darkhigh);
+  padding: 1px 0.6rem 1px 0.6rem;
+  border-radius: 1rem;
+  transition: 200ms all;
+}
+.box-button-pill:hover {
+  border: 1px solid #0f7ae5;
+  color: white;
+  background: #0f7ae5;
+  transition: 200ms all;
+}
+
+.box-spacer {
+  flex: 1;
+}
+.box-margin-top {
+  margin-top: 15px;
+}
+
+.uk-button-default {
+  color: var(--darkhigh);
+}
+.uk-button-default:hover {
+  color: var(--dark);
+}
+.uk-navbar-item, .uk-navbar-nav>li>a {
+  height: 60px !important;
+}
